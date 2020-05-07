@@ -1,6 +1,6 @@
 # ProtectingCodeWith-MITIGATION_POLICY
 
-![example](https://github.com/mobdk/ObfuscateTest/blob/master/policy01.PNG)
+![example](https://github.com/mobdk/ProtectingCodeWith-MITIGATION_POLICY/blob/master/policy01.PNG)
 
 Protect your code with a mitigation policy that prevent non Microsoft signed code to inject for inspection, this PoC shows the basic, FindUserPID search for logon srvhost PID, so we have permission.  
 
