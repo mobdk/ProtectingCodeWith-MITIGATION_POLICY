@@ -1,4 +1,7 @@
 # ProtectingCodeWith-MITIGATION_POLICY
+
+![example](https://github.com/mobdk/ObfuscateTest/blob/master/policy01.PNG)
+
 Protect your code with a mitigation policy that prevent non Microsoft signed code to inject for inspection, this PoC shows the basic, FindUserPID search for logon srvhost PID, so we have permission.  
 
 Compile: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /platform:x64 /target:exe /unsafe policy.cs
