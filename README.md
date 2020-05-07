@@ -2,7 +2,7 @@
 
 ![example](https://github.com/mobdk/ProtectingCodeWith-MITIGATION_POLICY/blob/master/policy01.png)
 
-Protect your code with a mitigation policy that prevent non Microsoft signed code to inject for inspection, this PoC shows the basic, FindUserPID search for logon srvhost PID, so we have permission.  
+Protect your code with a mitigation policy that prevent non Microsoft signed code to inject for inspection, this PoC shows the basic, FindUserPID search for logon srvhost PID, so we have permission. When executed is starts notepad.exe. 
 
 Compile: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /platform:x64 /target:exe /unsafe policy.cs
 
