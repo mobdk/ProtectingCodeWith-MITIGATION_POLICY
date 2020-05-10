@@ -43,7 +43,7 @@ public class Code
        var tSec = new SECURITY_ATTRIBUTES();
        pSec.nLength = Marshal.SizeOf(pSec);
        tSec.nLength = Marshal.SizeOf(tSec);
-       CreateProcess(/*"C:\\Windiows\\Tasks\\csharpshell64.exe"*/"C:\\Windows\\System32\\notepad.exe", null, ref pSec, ref tSec, false, EXTENDED_STARTUPINFO_PRESENT, IntPtr.Zero, null, ref sInfoEx, out pInfo);
+       CreateProcess("C:\\Windows\\System32\\notepad.exe", null, ref pSec, ref tSec, false, EXTENDED_STARTUPINFO_PRESENT, IntPtr.Zero, null, ref sInfoEx, out pInfo);
        DeleteProcThreadAttributeList(sInfoEx.lpAttributeList);
        Marshal.FreeHGlobal(sInfoEx.lpAttributeList);
        Marshal.FreeHGlobal(lpValue);
